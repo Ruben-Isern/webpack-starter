@@ -1,0 +1,13 @@
+
+# Git lo tenemos configurado para que guarde copia del contenido de la carpeta 03-webpack-inicial.
+# este archivo nos sirve para decirle a git que no guarde la subcarpeta, 
+# en este caso, node_modules, dist y lo que añadamos.
+# node_modules porque hay un montón de modulos que no necesitamos tener guardados 
+# y nunca los vamos a utilizar. todo eso viene por defecto en node.
+# Además si borramos la carpeta node_modules, simplemente teniendo el archivo package.json
+# nos bastará el cmando npm install para que de nuevo se instale todo y además incluyendo todos los
+# paquetes de nuestra configuración que fuimos instalando.
+
+
+node_modules/
+dist/
